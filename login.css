@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor de login */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para el título */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para los inputs y select */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+    display: none;
+    color: red;
+    font-size: 0.8em;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+/* Estilo para inputs con error */
+input.error {
+    border-color: red;
+}
